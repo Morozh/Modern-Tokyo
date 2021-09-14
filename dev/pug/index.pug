@@ -1,0 +1,22 @@
+//- Опционально
+include parts/mixin-svg-lib
+
+include ../components/header/header
+include ../components/footer/footer
+
+doctype
+html(lang="ru", prefix="og: http://ogp.me/ns#")
+  head
+    title Document
+    include assets/_metas
+    include assets/_links
+    include assets/_scripts
+  body
+    .page-wrapper
+      +header
+
+      section.container
+        .wrapper
+          p(style="font-weight: 700;") Контент
+
+      +footer

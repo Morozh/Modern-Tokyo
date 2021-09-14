@@ -1,0 +1,21 @@
+.button {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: rem(10) rem(20);
+  border-radius: rem(4);
+  border: none;
+  text-decoration: none;
+  transition: all .3s ease;
+  color: #fff;
+  cursor: pointer;
+  outline: 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: $tablet) {
+  .button {
+
+  }
+}

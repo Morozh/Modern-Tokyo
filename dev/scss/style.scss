@@ -1,0 +1,20 @@
+// Библиотеки
+@import 'libs';
+
+// Базовые расширения
+@import 'assets/vars';
+@import 'assets/mixins';
+@import 'assets/fonts';
+@import 'assets/base';
+
+// UI элементы
+@import '../components/_ui/button/button';
+@import '../components/_ui/input/input';
+@import '../components/_ui/checkbox/checkbox';
+@import '../components/_ui/radio/radio';
+
+// Компоненты
+@import '../components/header/header';
+@import '../components/footer/footer';
+
+// Контент страницы
